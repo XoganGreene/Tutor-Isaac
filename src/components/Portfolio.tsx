@@ -24,7 +24,7 @@ const portfolioItems = [
     category: "Wireframe",
     software: "Revit",
     icon: Maximize2,
-    image: `${import.meta.env.BASE_URL}stttructural-wireframe.jpg`  // ✅
+    image: `${import.meta.env.BASE_URL}sttructural-wireframe.jpg`  // ✅
   }
 ];
 
