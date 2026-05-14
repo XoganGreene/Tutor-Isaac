@@ -16,7 +16,7 @@ export default function AboutTutor() {
           >
             <div className="relative aspect-square md:aspect-[4/5] bg-white border border-slate-200 p-2 shadow-sm">
               <img 
-                src="/tutor-isaac.png" 
+                src={`${import.meta.env.BASE_URL}tutor-isaac.png`} 
                 alt="Tutor Isaac" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 bg-slate-100"
               />
