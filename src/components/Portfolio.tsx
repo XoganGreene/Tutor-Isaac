@@ -8,7 +8,7 @@ const portfolioItems = [
     category: "3D Render",
     software: "SolidWorks",
     icon: Box,
-    image: "/mechanical-assembly.jpg"
+    image: `${import.meta.env.BASE_URL}mechanical-assembly.jpg`
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const portfolioItems = [
     category: "2D Draft",
     software: "AutoCAD",
     icon: Layers,
-    image: "/architectural-floor-plan.jpg"
+    image: `${import.meta.env.BASE_URL}architectural-floor-plan.jpg`
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const portfolioItems = [
     category: "Wireframe",
     software: "Revit",
     icon: Maximize2,
-    image: "/sttructural-wireframe.jpg"
+    image:`${import.meta.env.BASE_URL}stttructural-wireframe.jpg`
   }
 ];
 
